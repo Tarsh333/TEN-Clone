@@ -1,0 +1,233 @@
+header {
+  display: flex;
+  flex-direction: column;
+}
+.header-upper-half {
+  display: flex;
+  padding: 10px 20px;
+  width: 90%;
+  min-width: 900px;
+  margin-left: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.btns-and-search{
+    margin-left: auto;
+    padding: 10px;
+}
+.cart-and-login{
+    margin-bottom: 17px;
+    justify-content: space-evenly;
+}
+
+.title {
+  font-size: 43px;
+  display: flex;
+  flex-direction: column;
+  line-height: 51.6px;
+  letter-spacing: 2.15px;
+  font-weight: 700;
+  font-style: italic;
+  font-family: questrial, sans-serif;
+  cursor: pointer;
+}
+.title-red {
+  color: #e81038;
+  text-shadow: rgb(0 0 0 / 50%) -1px -1px 0px, rgb(0 0 0 / 50%) -1px 1px 0px,
+  rgb(0 0 0 / 50%) 1px 1px 0px, rgb(0 0 0 / 50%) 1px -1px 0px;
+}
+.logo {
+  width: 100px;
+  height: 80px;
+}
+
+.cart-btn {
+  height: 46px;
+  width: 112px;
+  background-color: rgb(240, 19, 19);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-size: 23px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 0 0 8px rgb(0 0 0 / 15%);
+  display: flex;
+  align-items: center;
+  vertical-align: baseline;
+  justify-content: center;
+  transition-delay: 0s, 0s;
+  transition-duration: 0.2s, 0s;
+  transition-property: all, visibility;
+  transition-timing-function: ease, ease;
+  cursor: pointer;
+}
+.cart-btn:hover {
+  background-color: #3b456e;
+  color: white;
+}
+.login-btn {
+  width: 112px;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  height: 46px;
+  justify-content: center;
+  box-shadow: 0 0 8px rgb(0 0 0 / 15%);
+  cursor: pointer;
+}
+.search-bar {
+  width: 450px;
+  outline-color: white;
+  color: white;
+  font-weight: 400;
+  position: relative;
+  border-radius: 30px;
+}
+.search-bar :hover{
+  background-color: #FFE4EC;
+}
+
+.search-bar input:focus{
+  background-color: #FFE4EC;
+  outline:none;
+}
+.search-bar input {
+  width: 100%;
+  border: 0px;
+  background-color: black;
+  border-radius: 25px;
+  padding: 15px 9px;
+  color: white;
+  font-size: 15px;
+}
+.search-bar ::placeholder {
+  color: white;
+  opacity: 1;
+}
+.search-icon{
+  color: white;
+  position: absolute;
+  right:11px;
+  top: 12.5px;
+  font-size: 20px;
+  cursor:text
+}
+.clear-search{
+  position: absolute;
+  right:40px;
+  top: 14px;
+  background-color: inherit;
+  color: white;
+  border: 0px;
+}
+.clear-search:hover{
+  background-color: inherit;
+}
+.search-icon:hover{
+  color: white;
+  background-color: inherit;
+}
+.btns-and-search{
+  display: flex;
+  flex-direction: column;
+}
+.cart-and-login{
+  display: flex;
+}
+.user-icon{
+  margin: 8px;
+  font-size: 20px;
+}
+.login-btn:hover span{
+  color: #6E6E6E;
+}
+.header-lower-half {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: black;
+  padding: 10px 20px;
+  width: 90%;
+  margin-left: auto;
+  min-width: 900px;
+  position: relative;
+  bottom: 45px;
+  padding-left: 55px;
+}
+#active-link{
+  color:rgb(240, 19, 19) ;
+}
+.divider{
+  font-size: 40px;
+  color: rgb(141 135 135);
+  font-weight:lighter!important;
+}
+.header-lower-half a{
+  color: black;
+  transition:  all 0.5s;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.header-lower-half a:hover{
+  color:rgb(240, 19, 19) ;
+}
+.more-dropdown{
+  cursor:default;
+  position: relative;
+  color: black;
+  padding: 10px 20px;
+}
+.more-dropdown:hover .dropdowns{
+  display: block;
+}
+.dropdowns{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -30px;
+  background-color: white;
+  z-index: 5;
+  width: 290px;
+  text-align: center;
+  padding: 5px 10px 0px 0px;
+}
+.dropdowns a{
+  margin-bottom: 8px;
+}
+.dropdowns hr{
+  width: 100%;
+  height: 0px;
+  color: #EBDDF0;
+}
+.logo-div{
+  margin-right: 10%;
+  position: relative;
+}
+.logo-div::before{
+  z-index: -4;
+  content:"";
+  position: absolute;
+    bottom: -15px;
+    left: -20px;
+    width: 165px;
+    height: 26px;
+    background-image: url(../../images/shadow.png);
+    background-position: 0 0;
+    background-repeat: no-repeat
+}
+.logo-div::after{
+  z-index: -4;
+  content:"";
+  position: absolute;
+    bottom: -15px;
+    right: -20px;
+    width: 165px;
+    height: 26px;
+    background-image: url(../../images/after.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat
+}
+.header-lower-half-media{
+  display: none;
+}

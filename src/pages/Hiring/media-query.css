@@ -1,0 +1,9 @@
+@media screen and (max-width:1000px) {
+    .hiring-page-part-1 p div{
+       flex-direction: column;
+       align-items: center;
+    }
+    .hiring-page-part-1 p{
+       width: 100%;
+    }
+}

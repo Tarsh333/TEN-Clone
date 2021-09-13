@@ -1,0 +1,135 @@
+.course-page {
+  display: flex;
+}
+.courses-filter {
+  background-color: #525252;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 240px;
+  padding: 10px 20px;
+}
+.courses-filter h2 {
+  margin-bottom: 20px;
+}
+.courses-filter hr {
+  margin: 0px;
+  height: 2px;
+  color: white;
+  background-color: white;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.courses-filter button {
+  width: fit-content;
+  background-color: inherit;
+  border: 0px;
+  color: white;
+  font-size: 30px;
+}
+.course-page input {
+  margin-bottom: 15px;
+}
+.height-0 {
+  height: 0px;
+}
+#ranges {
+  transition: height 2s;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.slider {
+  -webkit-appearance: none;
+  height: 3px;
+  border-radius: 5px;
+  background: white;
+  outline: none;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+.price-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.courses-courses {
+  width: calc(100% - 240px);
+  padding-right: 15px;
+}
+.sort-courses select{
+    display: block;
+    background-color: #525252;
+    color: white;
+    padding: 10px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.sort-courses option{
+    background-color: #525252;
+    color: white;
+   
+}
+.courses-single-item{
+  width: 28%;
+  /* margin-bottom: 10px; */
+  border: 2px solid rgb(194, 193, 193);
+  padding: 10px 0px;
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.course-list{
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* justify-items: center; */
+  font-size: 16px;
+}
+.item-price{
+  color: #4BD5B5;
+}
+.course-list img{
+  width: 100%;
+}
+.courses-single-item div{
+  padding: 10px;
+}
+.download-icon{
+  position: absolute;
+  top: 10px;
+  background-color: rgb(255, 255, 255,0.5);
+  border-radius: 70%;
+  padding: 12px;
+  right: 10px;
+  cursor: pointer;
+}
+#quick-view{
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  /* top: 150px; */
+  bottom: 70px;
+  background-color: rgb(255, 255, 255,0.5);
+  height: 0px;
+  transition: all 0.5s;
+  overflow: hidden;
+  padding: 0px;
+  cursor: pointer;
+  z-index: 10;
+}
+.courses-single-item:hover #quick-view{
+  height: 40px;
+}
+

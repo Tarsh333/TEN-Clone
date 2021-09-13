@@ -1,0 +1,22 @@
+@media screen and (max-width:910px) {
+    .header-upper-half{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-width: 300px;
+    }
+    .cart-and-login{
+        flex-direction: column;
+    }
+    .cart-btn{
+        margin-bottom: 10px;
+    }
+    
+    .btns-and-search{
+        width: 100%;
+        align-items: center;
+    }
+    .header-lower-half{
+        display: none;
+    }
+}

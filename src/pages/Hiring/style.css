@@ -1,0 +1,119 @@
+.hiring-page-part-1 p div{
+    display: flex;
+}
+.hiring-page-part-1 p div img{
+    width:40%
+}
+.hiring-page-part-1{
+    width: 80%;
+    margin: auto;
+    background: linear-gradient(to right, rgba(72, 73, 75), rgba(72, 73, 75,0.5)),url(../../images/Hiring.webp);
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+.hiring-page-part-1 h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.hiring-page-part-1 p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.bold{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+@keyframes fontchange {
+    from {font-size: 0px;}
+    to {font-size: 30px;}
+  }
+.hiring-page-part-2{
+    background: linear-gradient(to right, rgb(255, 255, 255,0.9), rgba(255, 255, 255, 0.5)),url(../../images/hiring2.webp);
+    background-size: cover;
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 40px 0px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 80px;
+    opacity: 0;
+}
+.fade-in{
+    animation: fadein 2s linear 0.5s;
+    animation-fill-mode: forwards;
+}
+.hiring-page-part-2 form{
+    width: 70%;
+    margin: auto;
+}
+.hiring-page-part-2 h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(55, 59, 77);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.font-change{
+    animation: fontchange 1s linear 0.5s;
+    animation-fill-mode: forwards;
+}
+#hiring-page-part-2-p1{
+    color:#888A8C;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.hiring-page-part-2 select{
+    padding: 10px;
+    display: block;
+    width: 80%;
+    margin: 6px auto;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 2px;
+    background-color: white;
+}
+.hiring-page-part-2 select:hover{
+    background-color: rgb(191, 177, 202,0.8);
+}
+option{
+    background-color: white;
+}
+#first-select{
+    padding: 13px;
+}
+#last-select{
+    margin-bottom: 20px;
+}
+.hiring-page-part-2 input{
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 2px;
+    border: 0px;
+    padding: 10px;
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 6px;
+}
+.hiring-page-part-2 input:hover{
+    background-color: rgb(191, 177, 202,0.8);
+}
+.hiring-page-part-2 p{
+    margin: auto;
+    width: 80%;
+}
+.hiring-page-part-2 button{
+    background-color: #EDE9E9;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 6px 0px;
+    padding: 8px 30px;
+    margin-left: auto;
+    display: block;
+    margin-top: 35px;
+    border: 0px;
+}

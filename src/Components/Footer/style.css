@@ -1,0 +1,86 @@
+.footer-lower{
+    font-size: 22px;
+    font-weight: 400;
+    background-color: #FF5937;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+.footer-upper div{
+    display: flex;
+}
+.footer-upper{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 0px 4%;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px -2px 2px 0px;
+    /* margin-top: 2px; */
+}
+.footer-upper-3{
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
+    text-align: center;
+}
+.footer-upper-3 a{
+    font-size: 23px;
+    color: black;
+    font-weight: 400;
+}
+.footer-upper-2{
+    flex-direction: column;
+}
+
+
+.footer-upper-2 input[type="checkbox"]:hover{
+    background-color: white;
+    color: #49D6D6;
+}
+.footer-upper-2 button{
+    width: fit-content;
+    padding: 4px 30px;
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+}
+.footer-upper-2 button:hover{
+    background-color: red;
+    
+}
+label{
+    cursor: pointer;
+}
+.footer-checkbox{
+    padding-left: 5%;
+}
+.footer-upper-2 input[type="text"]{
+    display: block;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#footer-upper-2-inputs{
+    padding: 10px;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: space-evenly;
+}
+.footer-upper-2 h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.footer-upper-1 img{
+    height: 50px;
+    width: 50px;
+}
+.footer-upper-1{
+    align-items: center;
+}
+.footer-upper-1 a{
+    margin: 10px;
+}

@@ -1,0 +1,66 @@
+@media screen and (max-width:1000px) {
+    .container-home {
+        width: 100vw;
+      }  
+    .container-home div {
+        width: 100%;
+      }  
+    .part1 div {
+        font-size: 40px;
+       width: 50%;
+       padding-bottom: 15px;
+      }
+    .part1{
+  height: fit-content;
+  padding: 40px 0px;
+
+      }
+      .img2{
+          /* height: 240px; */
+          width: 70%;
+          margin-bottom: 40px;
+        }
+        .part2-text{
+            font-size: 30px;
+        }
+      .part3{
+          text-align: center;
+      }
+      .part-3-2{
+          font-size: 60px;
+      }
+      .part-4{
+          flex-direction: column;
+          align-items: center;
+      }
+      .part-4 div{
+          width: 100%;
+      }
+      .part-4-img div{
+        position:absolute;
+        height: max-content;
+        top: 0%;
+        left: 0%;
+        font-size: 40px;
+      }
+      .part-5{
+          flex-direction: column;
+      }
+      .part-5 img{
+          width: 100%!important;
+      }
+      .part-6{
+          flex-direction: column;
+      }
+      .part-6 img{
+          width: 100%!important;
+      }
+      .part-8{
+          flex-direction: column;
+      }
+      .part-9 div{
+          font-size: 55px;
+          text-align: center;
+      }
+    
+}
