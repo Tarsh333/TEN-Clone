@@ -72,10 +72,10 @@ const Header = () => {
             <div className="header-lower-half-media">
                 <button className="open-header" id={headerOpen&&"fixed"} onClick={() => { setHeaderOpen((prev) => !prev) }}>{headerOpen ? 'x' : '+'}</button>
                 {headerOpen && <div className="media-header">
-                    <Link to="/">Home</Link>
-                    <Link to="/courses">Online Courses</Link>
-                    <Link to="/hiring">We're Hiring </Link>
-                    {dropdown.map((item) => { return (<Link to={`/${item.replace(/\s+/g, '-')}`}>{item}</Link>) })}
+                    <Link to="/" onClick={()=>{setHeaderOpen(false)}}>Home</Link>
+                    <Link to="/courses" onClick={()=>{setHeaderOpen(false)}}>Online Courses</Link>
+                    <Link to="/hiring" onClick={()=>{setHeaderOpen(false)}}>We're Hiring </Link>
+                    {dropdown.map((item) => { return (<Link to={`/${item.replace(/\s+/g, '-')}`} onClick={()=>{setHeaderOpen(false)}}>{item}</Link>) })}
                     </div>}
 
             </div>
