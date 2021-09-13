@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './style.css'
+import './media-query.css'
 import { FaTwitter } from 'react-icons/fa'
 import { FaFacebookF } from 'react-icons/fa'
 const Contact = () => {

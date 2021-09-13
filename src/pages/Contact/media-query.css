@@ -1,0 +1,9 @@
+@media screen and (max-width:1200px) {
+    .contact-us-form{
+        flex-direction: column;
+    }
+    .contact-us-form form{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

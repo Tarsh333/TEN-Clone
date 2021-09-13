@@ -3,7 +3,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        min-width: 300px;
+        min-width: 0px;
     }
     .cart-and-login{
         flex-direction: column;
@@ -18,5 +18,11 @@
     }
     .header-lower-half{
         display: none;
+    }
+    .search-bar{
+        width: 100%;
+    }
+    .title{
+        font-size: 33px;
     }
 }
